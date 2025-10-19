@@ -87,7 +87,7 @@ Este diagrama detalha os principais blocos tecnológicos que compõem o sistema 
 <img width="3444" height="4084" alt="image" src="https://github.com/user-attachments/assets/a71bbc08-2d30-41bd-acc6-a9dd610d49c4" />
 
 
-#### **3.4. Modelo C4 - Nível 3: Diagrama de Componentes **
+#### **3.4. Modelo C4 - Nível 3: Diagrama de Componentes**
 Para o Backend API, que adota uma arquitetura monolítica modular em Node.js, o detalhamento no Nível 3 do C4 Model ilustra os principais componentes lógicos e suas interações internas. Este nível de detalhe é crucial para entender como as funcionalidades de negócio são orquestradas dentro da aplicação principal.
 
 <img width="4244" height="6644" alt="image" src="https://github.com/user-attachments/assets/5ca5c892-eb4d-43b3-82a8-f9b514a18344" />
