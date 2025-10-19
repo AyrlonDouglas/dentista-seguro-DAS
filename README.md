@@ -87,11 +87,28 @@ Este diagrama detalha os principais blocos tecnológicos que compõem o sistema 
 <img width="3444" height="4084" alt="image" src="https://github.com/user-attachments/assets/a71bbc08-2d30-41bd-acc6-a9dd610d49c4" />
 
 
-#### **3.4. Modelo C4 - Nível 3: Diagrama de Componentes (A ser detalhado na Sprint 2)**
-A Sprint 2 focará no detalhamento da **Backend Application** em seus módulos/componentes internos (ex: `Módulo de Usuários`, `Módulo de Casos Clínicos`, `Módulo de Comentários`, etc.).
+#### **3.4. Modelo C4 - Nível 3: Diagrama de Componentes **
+Para o Backend API, que adota uma arquitetura monolítica modular em Node.js, o detalhamento no Nível 3 do C4 Model ilustra os principais componentes lógicos e suas interações internas. Este nível de detalhe é crucial para entender como as funcionalidades de negócio são orquestradas dentro da aplicação principal.
 
-#### **3.5. Modelo de Dados Inicial (A ser detalhado na Sprint 2)**
-A Sprint 2 detalhará o modelo de dados lógico e físico. As entidades principais já identificadas são: `Usuario`, `CasoClinico`, `Midia`, `Comentario`, `Especialidade`, `Tag` e `Notificacao`.
+<img width="4244" height="6644" alt="image" src="https://github.com/user-attachments/assets/5ca5c892-eb4d-43b3-82a8-f9b514a18344" />
+
+Descrição dos Componentes Principais:
+
+    Módulo de autenticação: Componente responsável por todas as operações de autenticação (login, registro, redefinição de senha) e geração/validação de tokens de acesso. Interage com o UsuarioService para gerenciar as credenciais do usuário.
+
+    Módulo de usuário: Gerencia as informações de perfil dos usuários (criação, leitura, atualização, exclusão de dados do perfil, especialidades).
+
+    Módulo de caso clínico: Contém a lógica de negócio para a criação, visualização, edição, exclusão e pesquisa de casos clínicos. Ainda no mesmo, Gerencia todas as operações relacionadas a comentários e respostas em casos clínicos.
+
+    Módulo comum: Responsáel por agrupar serviços que são de uso comum dos módulos. Dentro dele há atualmente 4 serviços. O AnexoService é responsável pelo upload, gerenciamento e recuperação de mídias (imagens, vídeos) associadas aos casos clínicos. O NotificationService que notificações por push para os usuários. O EmailService é responsável pelo envio de emails para os usuários. O MonitoramentoService é responsável pelo registro de logs e errors que ocorrem na aplicações.
+
+
+#### **3.5. Modelo de Dados Inicial**
+O Modelo de Dados Lógico/Conceitual inicial define as principais entidades de informação do sistema Dentista Seguro, seus atributos e os relacionamentos entre elas. Este modelo serve como a base para o design do banco de dados relacional (PostgreSQL) e garante a integridade e a consistência dos dados do sistema.
+
+<img width="915" height="623" alt="Screenshot 2025-10-19 at 18 41 53" src="https://github.com/user-attachments/assets/ffe79636-ae25-4be6-8e92-850d92ed4e61" />
+
+Este modelo de dados assegura que todas as informações necessárias para as funcionalidades do sistema sejam armazenadas de forma organizada e eficiente.
 
 ---
 
