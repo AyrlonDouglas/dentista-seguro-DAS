@@ -1,8 +1,8 @@
 ### **Documento Arquitetural do Sistema (DAS)**
 ### **Projeto Dentista Seguro**
 
-**Versão:** 2.0 (Resultado da Sprint 2)
-**Data:** 19 de outubro de 2025
+**Versão:** 3.0 (Resultado da Sprint 3)
+**Data:** 26 de outubro de 2025
 **Autor(es):** Ayrlon Vilarim
 
 ---
