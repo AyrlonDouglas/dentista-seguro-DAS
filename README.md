@@ -104,9 +104,17 @@ Descrição dos Componentes Principais:
 
 
 #### **3.5. Modelo de Dados Inicial**
-O Modelo de Dados Lógico/Conceitual inicial define as principais entidades de informação do sistema Dentista Seguro, seus atributos e os relacionamentos entre elas. Este modelo serve como a base para o design do banco de dados relacional (PostgreSQL) e garante a integridade e a consistência dos dados do sistema.
+O Modelo de Dados Lógico/Conceitual e físico inicial define as principais entidades de informação do sistema Dentista Seguro, seus atributos e os relacionamentos entre elas. Este modelo serve como a base para o design do banco de dados relacional (PostgreSQL) e garante a integridade e a consistência dos dados do sistema.
 
+##### **3.5.1. Modelo Lógico/Conceitual**
 <img width="915" height="623" alt="Screenshot 2025-10-19 at 18 41 53" src="https://github.com/user-attachments/assets/ffe79636-ae25-4be6-8e92-850d92ed4e61" />
+
+##### **3.5.2. Modelo Físico**
+<img width="1630" height="2788" alt="code1" src="https://github.com/user-attachments/assets/544001cc-6868-4c75-b9e9-66e68ccfc83f" />
+<img width="1680" height="3028" alt="code2" src="https://github.com/user-attachments/assets/c99671a9-24d6-4f27-810e-7a9e5a820859" />
+<img width="2170" height="3700" alt="code3" src="https://github.com/user-attachments/assets/6b33426e-05f6-4bdb-a0fb-166111658b63" />
+
+
 
 Este modelo de dados assegura que todas as informações necessárias para as funcionalidades do sistema sejam armazenadas de forma organizada e eficiente.
 
